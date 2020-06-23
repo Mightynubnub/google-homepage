@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page-container {
+    position: relative;
+    min-height: 87vh;
+}
+
+#navbar {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#navstart {
+    padding-left: 15px;
+    font-size: small;
+}
+
+#navend {
+    float: right;
+    padding-right: 30px;
+    font-size: small;
+    text-align: end;
+}
+
+#expand {
+    background-position: -132px -38px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.button {
+    background: url(https://static.thenounproject.com/png/756729-200.png);
+    background-size: 528px 68px;
+}
+
+#sign-in {
+    position: absolute;
+}
+
+.sign-in {
+    border: 1px solid #4285f4;
+    color: #fff;
+    background: #4285f4;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.sign-in:hover {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.253);
+}
+
+a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#start {
+    float: left;
+}
+
+#end {
+    direction: ltr;
+    vertical-align: top;
+}
+
+#google {
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 5rem;
+}
+
+.searchcenter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#searchborder {
+    background: #fff;
+    ;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+}
+
+#search {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-left: 10px;
+}
+
+#searchbar {
+    width: 100%;
+    display: flex;
+    flex: 100%;
+}
+
+.searchbtn {
+    position: absolute;
+    width: auto;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+.btn {
+    height: 36px;
+}
+
+#searchbtn {
+    padding: 0px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+
+#searchbtn:hover {
+    border: 1px solid gray;
+}
+
+#lucky {
+    padding: 0px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#lucky:hover {
+    border: 1px solid gray;
+}
+
+.fbar {
+    display: block;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    left: 0;
+    right: 0;
+}
+
+#location {
+    padding-left: 30px;
+}
